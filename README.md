@@ -1,4 +1,4 @@
-# Teacher's Desk AI
+# Teacher's Desk AI 🎓
 
 An AI-powered, production-grade SaaS School Management & Learning Platform supporting Students, Teachers, School Administrators, Super Administrators, and Parents.
 
