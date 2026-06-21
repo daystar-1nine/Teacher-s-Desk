@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E3F20;
+  --color-primary-hover: #28532C;
+  --color-secondary: #C5A880;
+  --color-secondary-hover: #E2C799;
+  --color-alabaster: #F4F1EA;
+  --color-spruce: #222E28;
+  --color-spruce-dark: #121A17;
+  --color-spruce-light: #2C3E35;
+  --color-spruce-charcoal: #1A2421;
+  --color-accent-gold: #D4AF37;
+  
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Scrollbar Styles for the Spruce Charcoal theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C3E35;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1E3F20;
+}
+
+body {
+  background-color: #F4F1EA;
+  color: #222E28;
+}
+
+/* Custom glassmorphism utilities */
+.glass-card {
+  background: rgba(44, 62, 53, 0.95);
+  border: 1px solid rgba(197, 168, 128, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.glass-card-light {
+  background: rgba(250, 249, 246, 0.85);
+  border: 1px solid rgba(30, 63, 32, 0.1);
+  backdrop-filter: blur(8px);
+}
